@@ -1,0 +1,23 @@
+[project]
+name = "bulldozer-price-prediction-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Michael Boniface", email = "bmg1mike@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn"
+]
+
+[project.scripts]
+bulldozer-price-prediction-project = "bulldozer_price_prediction_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
